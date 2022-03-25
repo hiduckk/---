@@ -1,0 +1,83 @@
+.App{
+  width: 400px;
+  height:700px;
+  background-color: black;
+  border-radius: 40px;
+  border: none;
+  padding: 0px;
+  margin-top:30px;
+
+}
+
+button{
+  border-radius: 50px;
+  background-color: grey;
+  border:none;
+  color:white;
+  height:80px;
+  width:80px;
+  margin:4px;
+  font-size: 25px;
+}
+button:hover{
+  background-color: rgb(196, 196, 196);
+}
+#연산{
+  background-color: orange;
+}
+#연산:hover{
+  background-color: rgb(236, 197, 125);
+}
+#기호{
+  background-color: rgb(185, 185, 185);
+}
+#기호:hover{
+  background-color: rgb(235, 235, 235);
+}
+body{
+  background-color: white;
+  color:white;
+  display: flex;
+  justify-content: center;
+
+}
+.content{
+padding:0px;
+margin-bottom: 10px;
+
+}
+.keypad{
+ display: flex;
+ flex-direction: column;
+
+  align-items: center;
+}
+.App h1{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom:5px;
+
+}
+.content input{
+  flex-wrap:wrap;
+  padding:20px;
+  width: 350px;
+  height: 70px;
+  border :none;
+  background-color: black;
+
+  color: rgb(215, 250, 89);
+  font-size:50px
+}
+
+.col5 #연산{
+  width:170px;
+}
+.col5{
+  display: flex;
+
+
+}
